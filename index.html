@@ -1,37 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en-us">
-<head>
-<meta charset="UTF-8">
-<link href="css/styles.css" rel="stylesheet">
-<title>My First Page</title>
-</head>
+  <head>
+    <title>CIT 230 Assignment Portal</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <meta name="author" content="Joanna Schone">
+    <meta name="description" content="BYU-I Joanna Schone Assignment Portal for WDD230, Web Frontend">
+    <link rel="stylesheet" href="weekOneStyle.css"/>
+    <link rel="javasheet" href="javasheet.js"/>
+  </head>
 
 <body>
-    <header>
-        <h1>Company Name</h1>
-        <h2>Slogan</h2>
-    </header>
-<nav>
+     <header>
+       <h1 class="name">Joanna K. Schone</h1>
+         <div class="selfPortrait">
+           <img src="https://cdn.glitch.com/00a3797b-9031-4be4-b0ba-a8042aacf5ff%2FJoannaProfile.jpeg?v=1612296673573" alt="self-portrait">
+         </div>
+     </header>
+
+  <main>
+    <h2>CIT 230: Assignment Portal</h2>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Agenda</a></li>
-        <li><a href="#">Schedule</a></li>
+      <li>Lesson 02: <a href="lesson2.html">Assignment Link</a></li>
+      <li>Lesson 03: <a href="lesson3.html">Assignment Link</a></li>
+      <li>Lesson 04: <a href="lesson4A.html">Assignment Link</a> || <a href="lesson4B.html">Assignment Link</a></li>
     </ul>
-</nav>
+  </main>
+  
+  <div class = "modification">
+  <script>
+      var date = document.lastModified;
+      document.write("Last Modified: "+date);
+  </script>
+  </div>
 
-<main>
-    <h1>Home</h1>
-    <img src="" alt="">
-    <p>SDFGHJHGFGHJKJHghjkjhgfdghjkmnbgfhj</p>
-    <ol>
-        <li>Bootstrap</li>
-        <li>Materialize</li>
-        <li>Foundation</li>
-    </ol>
-</main>
-
-<footer>
-    &copy; Joanna Schone 2021
-</footer>
+  <footer>
+    <p class="copyright">
+      &copy;2021 || Joanna K. Schone || Utah || <a href="https://www.byui.edu/">BYU-I Online Learning</a>
+    </p>
+    
+  </footer>
 </body>
 </html>

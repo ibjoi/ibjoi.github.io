@@ -1,0 +1,92 @@
+header {
+    align-items: center;
+    background: #7b8d42ff;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    display: grid;
+    height: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 5px;
+    width: 700px;
+  }
+  
+  .selfPortrait img{
+    border: 2px solid black;
+    margin-left: 485px;
+    margin-top: -70px;
+    width: 140px;
+  }
+  
+  .name {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  
+  body {
+    background-color: #F1BF98;
+    background-image: url("https://cdn.glitch.com/00a3797b-9031-4be4-b0ba-a8042aacf5ff%2FUntitled%20presentation.jpg?v=1610178908763");
+    font-family: Manrope, Candara, Calibri, sans-serif;
+  }
+  
+  main {
+    background-color: rgba(159, 170, 123, .45);
+    border-left: 3px dotted white;
+    border-right: 3px dotted white;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 1px;
+    width: 704px;
+  }
+  
+  main a {
+    color: black;
+  }
+  
+  main h2 {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 27px;
+    margin-bottom: 10px;
+  }
+  
+  main li {
+    margin-left: 50px;
+    padding: 4px;
+  }
+  
+  
+  footer {
+    background-color: #7b8d42ff;
+    border-radius: 0px 0px 15px 15px;
+    display: grid;
+    height: 106%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 12px;
+    width: 687px;
+  }
+  
+  .copyright {
+    color: white;
+    font-size: 20px;
+    grid-column: 2;
+    margin-top: 10px;
+  }
+  
+  .copyright a {
+    color: white;
+  }
+  
+  .modification {
+    color: black;
+    font-size: 15px;
+    margin-left: 560px;
+    margin-top: 47px;
+    position: fixed;
+  }
